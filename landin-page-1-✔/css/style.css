@@ -1,0 +1,38 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.imagen-logo{
+    width: 60px;
+    height: 60px;
+}
+
+.img-fondo{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(../imagen/personas.avif);
+        background-size: cover;
+        background-position: center;
+
+    height: 40vh;
+}
+
+/* MEDIA-Q DESKTOP */
+@media only screen and (max-width: 2000px){
+
+    .formulario-size{
+        max-width: 100%;
+        margin: 0 auto;
+    }
+}
+
+/* MEDIA-Q MOBILE */
+@media only screen and (min-width: 200px) and (max-width:990px){
+    
+    .imagen-logo{
+        display: none;
+    }
+}
